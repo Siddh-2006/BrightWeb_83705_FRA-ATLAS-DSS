@@ -1,3 +1,4 @@
+```markdown
 # 🗃️ FRA Management System - Database Organization
 
 ## 📋 Table of Contents
@@ -15,7 +16,7 @@
 
 ---
 
-## 🌐 Overview
+## Overview <a name="overview"></a> 🌐
 
 The **Database Organization** defines how all critical information—ranging from FRA documents and geospatial data to AI-processed results—is structured, interlinked, and accessed across the FRA Management System.  
 
@@ -25,7 +26,7 @@ We've designed a **logical, flexible, and scalable data model** that supports do
 
 ---
 
-## 🎯 Design Goals
+## Design Goals <a name="design-goals"></a>
 
 | Goal | Description | Implementation Approach |
 |------|-------------|------------------------|
@@ -37,7 +38,7 @@ We've designed a **logical, flexible, and scalable data model** that supports do
 
 ---
 
-## 🧠 Data Management Approach
+## Data Management Approach <a name="data-management-approach"></a> 🧠
 
 ### Multi-Database Strategy
 
@@ -64,7 +65,7 @@ graph TB
 
 ---
 
-## 🏗️ High-Level Architecture
+## High-Level Architecture <a name="high-level-architecture"></a> 🏗️
 
 ```mermaid
 flowchart TD
@@ -102,7 +103,7 @@ flowchart TD
 
 ---
 
-## 🔑 Core Entities
+## Core Entities <a name="core-entities"></a> 🔑
 
 ### Primary Data Entities
 
@@ -143,7 +144,7 @@ graph LR
 
 ---
 
-## 🧩 Entity Relationship Model
+## Entity Relationship Model <a name="entity-relationship-model"></a> 🧩
 
 ```mermaid
 erDiagram
@@ -222,7 +223,7 @@ erDiagram
 
 ---
 
-## 🔄 Data Flow Lifecycle
+## Data Flow Lifecycle <a name="data-flow-lifecycle"></a> 🔄
 
 ### Complete Document-to-Decision Pipeline
 
@@ -282,7 +283,7 @@ sequenceDiagram
 
 ---
 
-## 🧭 Access & Storage Strategy
+## Access & Storage Strategy <a name="access--storage-strategy"></a> 🧭
 
 ### Role-Based Access Control (RBAC)
 
@@ -314,7 +315,7 @@ sequenceDiagram
 
 ---
 
-## ⚙️ Scalability and Maintenance
+## Scalability and Maintenance <a name="scalability-and-maintenance"></a> ⚙️
 
 ### Scaling Strategies
 
@@ -347,7 +348,7 @@ graph TB
 
 ---
 
-## 🚀 Performance Optimization
+## Performance Optimization <a name="performance-optimization"></a> 🚀
 
 ### Indexing Strategy
 
@@ -374,7 +375,7 @@ CREATE INDEX idx_assets_village_type ON asset_mapping(village_id, asset_type);
 
 ---
 
-## 🎯 Summary
+## Summary <a name="summary"></a> 🎯
 
 ### 🏆 Key Architecture Achievements
 
@@ -418,6 +419,11 @@ graph LR
 
 For database-specific queries or schema discussions, the development team can contact:
 
+**Technical Leads:**
+- Database Architecture: `db-arch@fra-system.gov.in`
+- GIS & Spatial Data: `gis-team@fra-system.gov.in` 
+- AI Integration: `ai-ml@fra-system.gov.in`
+
 **State Coordination:**
 - Madhya Pradesh: `dirtadp@mp.gov.in`
 - Odisha: `stscdev@gmail.com`
@@ -435,3 +441,4 @@ For database-specific queries or schema discussions, the development team can co
 **📅 Database Architecture Document**
 
 </div>
+```
