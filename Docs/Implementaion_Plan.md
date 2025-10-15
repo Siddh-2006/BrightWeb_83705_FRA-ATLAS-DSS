@@ -1,4 +1,4 @@
-# 🧠 FRA_Digital_System_Implementation_Plan.md
+# 🧠 FRA_Digital_System_Implementation_Plan
 
 ## ⚙️ Phase 1: Setup & Governance
 **Focus:** Repository setup, dataset baselining, metadata standards  
