@@ -27,6 +27,7 @@ These issues weren't just minor inconveniences; they held back entire communitie
 
 ![Claims vs Titles Distributed](../images/claims_vs_titles.png)
 
+![Rejected claims](../images/rejected_claims.png)
 ---
 
 ## After Implementation: The Positive Shift
